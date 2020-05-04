@@ -19,9 +19,7 @@ composer install
 
 <br/>
 
-After you've done steps above, properly edit your Nginx server vhost configuration .conf file.
-<br/>
-An example .conf file is included at nginx/vhost.conf
+After you've done steps above, properly edit your Nginx server vhost configuration .conf file. An example .conf file is included at nginx/vhost.conf.
 <br/>
 ```bash
 nginx -s reload
@@ -31,4 +29,5 @@ Hopefully your app will be working
 
 <br/>
 
-Notice that cases API sources files from local directory, make sure files are uploaded before making the API available
+# Notice
+The cases API sources files from local directories, make sure files are uploaded before making the API available
