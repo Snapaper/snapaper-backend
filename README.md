@@ -25,9 +25,11 @@ After you've done steps above, properly edit your Nginx server vhost configurati
 nginx -s reload
 ```
 <br/>
-Hopefully your app will be working
+Hopefully your app will be working by now.
+
 
 <br/>
 
-# Notice
-The cases API sources files from local directories, make sure files are uploaded before making the API available
+
+## Notice
+The cases API sources files from local directories, make sure files are uploaded before making the API available.
