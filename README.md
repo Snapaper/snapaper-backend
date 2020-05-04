@@ -8,12 +8,21 @@ The PHP Back-end of Snapaper
 git clone git@github.com:Snapaper/snapaper-backend.git
 ```
 
+<br/>
+
+Make sure composer has been installed before you continue.
+<br/>
 ```bash
 cd src
 composer install
 ```
+
 <br/>
-After you've done steps above, properly edit your Nginx server vhost configuration .conf file and
+
+After you've done steps above, properly edit your Nginx server vhost configuration .conf file.
+<br/>
+An example .conf file is included at nginx/vhost.conf
+<br/>
 ```bash
 nginx -s reload
 ```
